@@ -11,12 +11,12 @@ const socials = [
   {
     icon: <FaFacebookF />,
     label: 'Facebook',
-    href: null, // placeholder — link when account is created
+    href: null, // placeholder -link when account is created
   },
   {
     icon: <FaTiktok />,
     label: 'TikTok',
-    href: null, // placeholder — link when account is created
+    href: null, // placeholder -link when account is created
   },
 ]
 
@@ -38,7 +38,7 @@ export default function Footer() {
               <span>Aketesia Boafo Foundation</span>
             </div>
             <p className="footer__tagline">
-              Helper of the Lady — empowering young girls in Winneba, Ghana
+              Helper of the Lady. Empowering young girls in Winneba, Ghana
               through mentorship, skill-training, and holistic education.
             </p>
           </div>
@@ -73,8 +73,8 @@ export default function Footer() {
                   <span
                     key={i}
                     className="footer__social-link footer__social-link--disabled"
-                    title={`${s.label} — coming soon`}
-                    aria-label={`${s.label} — coming soon`}
+                    title={`${s.label} -coming soon`}
+                    aria-label={`${s.label} -coming soon`}
                   >
                     {s.icon}
                   </span>

@@ -23,7 +23,7 @@ const calendar = [
   { month: 'May', theme: 'Career Exploration', icon: <FaBriefcase />, color: '#A48E9D', activities: 'Discussion on school courses and career outcomes' },
   { month: 'June', theme: 'Health & Hygiene', icon: <FaHeartbeat />, color: '#4A708B', activities: 'Menstrual hygiene, mental health, nutrition' },
   { month: 'July', theme: 'Education Support', icon: <FaGraduationCap />, color: '#84A98C', activities: 'Tutoring, SHS/Uni prep, scholarship exploration' },
-  { month: 'August', theme: 'Creative Art', icon: <FaPalette />, color: '#A48E9D', activities: 'Sewing, beading, painting, music — demystifying creativity' },
+  { month: 'August', theme: 'Creative Art', icon: <FaPalette />, color: '#A48E9D', activities: 'Sewing, beading, painting, music, and more. Demystifying creativity' },
   { month: 'September', theme: 'Self-awareness & Care', icon: <FaSpa />, color: '#4A708B', activities: 'Journaling, mindfulness, conversation circles' },
   { month: 'October', theme: 'Community Service', icon: <FaHandHoldingHeart />, color: '#84A98C', activities: 'Group project: identify a cause and deliver an outreach program' },
   { month: 'November', theme: 'Review Month', icon: <FaClipboardCheck />, color: '#A48E9D', activities: 'Focus group on activities and plan the next year' },
@@ -47,7 +47,7 @@ export default function Programs() {
             <h3>Our Approach</h3>
             <p>
               We foster a nurturing and inclusive environment where all adolescent
-              girls — including pregnant and young mothers — can stay in school and
+              girls, including pregnant and young mothers, can stay in school and
               thrive. We provide an integrated package of academic support, sexuality
               and life-skills education, vocational training, leadership development,
               and mentorship tailored to their realities.

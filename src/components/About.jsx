@@ -55,7 +55,7 @@ export default function About() {
               <blockquote>
                 "Your legacy is every life you have ever touched."
               </blockquote>
-              <cite>— Maya Angelou</cite>
+              <cite>- Maya Angelou</cite>
             </div>
           </div>
 
@@ -75,10 +75,10 @@ export default function About() {
         <div className="about__sdgs">
           <h3 className="about__sdgs-title">Aligned with the UN Sustainable Development Goals</h3>
           <div className="about__sdg-tags">
-            <span className="about__sdg-tag about__sdg-tag--4">SDG 4 — Quality Education</span>
-            <span className="about__sdg-tag about__sdg-tag--5">SDG 5 — Gender Equality</span>
-            <span className="about__sdg-tag about__sdg-tag--1">SDG 1 — No Poverty</span>
-            <span className="about__sdg-tag about__sdg-tag--8">SDG 8 — Decent Work</span>
+            <span className="about__sdg-tag about__sdg-tag--4">SDG 4:Quality Education</span>
+            <span className="about__sdg-tag about__sdg-tag--5">SDG 5:Gender Equality</span>
+            <span className="about__sdg-tag about__sdg-tag--1">SDG 1:No Poverty</span>
+            <span className="about__sdg-tag about__sdg-tag--8">SDG 8:Decent Work</span>
           </div>
         </div>
       </div>

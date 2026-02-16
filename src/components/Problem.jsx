@@ -5,7 +5,7 @@ const stats = [
   {
     icon: <FaChild />,
     number: '1 in 5',
-    label: 'girls aged 15–19 in the Central Region have begun childbearing',
+    label: 'girls aged 15-19 in the Central Region have begun childbearing',
   },
   {
     icon: <FaSchool />,
@@ -55,7 +55,7 @@ export default function Problem() {
               Multiple studies have interconnected factors such as poverty, early child
               marriages, inadequate reproductive health education, and limited access to
               contraceptives driving the high rates of teenage pregnancy. The consequences
-              are far-reaching — girls either drop out of school, perform poorly
+              are far-reaching. Girls either drop out of school, perform poorly
               academically, or are limited in advancing their skills.
             </p>
             <p>
@@ -71,7 +71,7 @@ export default function Problem() {
               <span className="problem__highlight-label">Our Response</span>
               <p>
                 Aketesia Boafo confronts these barriers head-on through after-school
-                mentorship, comprehensive education, and skill-building — keeping girls
+                mentorship, comprehensive education, and skill-building, keeping girls
                 in school and on the path to brighter futures.
               </p>
               <a href="#programs" className="btn btn-primary">See Our Programs</a>

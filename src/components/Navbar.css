@@ -32,7 +32,11 @@
 
 .navbar__logo img {
   height: 42px;
-  width: auto;
+  width: 42px;
+  border-radius: 50%;
+  object-fit: cover;
+  background: var(--color-white);
+  box-shadow: var(--shadow-sm);
 }
 
 .navbar__brand {

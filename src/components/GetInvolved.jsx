@@ -17,7 +17,7 @@ export default function GetInvolved() {
 
   const handleSubmit = (e) => {
     e.preventDefault()
-    // For now, just show success — integrate with backend later
+    // For now, just show success - integrate with backend later
     setSubmitted(true)
   }
 
@@ -28,7 +28,7 @@ export default function GetInvolved() {
           <span className="section-label">Get Involved</span>
           <h2 className="section-title">Join Our Mission</h2>
           <p className="section-subtitle">
-            Whether you volunteer, donate, or spread the word — every action
+            Whether you volunteer, donate, or spread the word, every action
             helps a girl in Winneba build a brighter future.
           </p>
         </div>

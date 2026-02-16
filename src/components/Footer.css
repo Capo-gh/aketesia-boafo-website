@@ -24,7 +24,8 @@
   width: 36px;
   border-radius: 50%;
   object-fit: cover;
-  filter: brightness(0) invert(1);
+  background: var(--color-white);
+  padding: 2px;
 }
 
 .footer__logo span {

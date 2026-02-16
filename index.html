@@ -12,6 +12,29 @@
   </head>
   <body>
     <div id="root"></div>
+    <script>
+      // Generate circular favicon from logo
+      (function() {
+        var img = new Image();
+        img.onload = function() {
+          var size = 64;
+          var canvas = document.createElement('canvas');
+          canvas.width = size;
+          canvas.height = size;
+          var ctx = canvas.getContext('2d');
+          ctx.beginPath();
+          ctx.arc(size / 2, size / 2, size / 2, 0, Math.PI * 2);
+          ctx.closePath();
+          ctx.clip();
+          ctx.fillStyle = '#FFFFFF';
+          ctx.fillRect(0, 0, size, size);
+          ctx.drawImage(img, 0, 0, size, size);
+          var link = document.querySelector("link[rel='icon']");
+          if (link) link.href = canvas.toDataURL('image/png');
+        };
+        img.src = '/abf-icon.png';
+      })();
+    </script>
     <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>

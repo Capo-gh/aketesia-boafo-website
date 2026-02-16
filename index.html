@@ -13,7 +13,7 @@
   <body>
     <div id="root"></div>
     <script>
-      // Generate circular favicon from logo
+      // Generate circular favicon with brand blue background
       (function() {
         var img = new Image();
         img.onload = function() {
@@ -22,13 +22,19 @@
           canvas.width = size;
           canvas.height = size;
           var ctx = canvas.getContext('2d');
+          // Draw blue circle background
+          ctx.beginPath();
+          ctx.arc(size / 2, size / 2, size / 2, 0, Math.PI * 2);
+          ctx.closePath();
+          ctx.fillStyle = '#4A708B';
+          ctx.fill();
+          // Clip to circle and draw logo with padding
           ctx.beginPath();
           ctx.arc(size / 2, size / 2, size / 2, 0, Math.PI * 2);
           ctx.closePath();
           ctx.clip();
-          ctx.fillStyle = '#FFFFFF';
-          ctx.fillRect(0, 0, size, size);
-          ctx.drawImage(img, 0, 0, size, size);
+          var pad = 6;
+          ctx.drawImage(img, pad, pad, size - pad * 2, size - pad * 2);
           var link = document.querySelector("link[rel='icon']");
           if (link) link.href = canvas.toDataURL('image/png');
         };

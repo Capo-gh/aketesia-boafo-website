@@ -1,0 +1,180 @@
+.about {
+  background: var(--color-white);
+}
+
+.about__header {
+  text-align: center;
+  margin-bottom: 56px;
+}
+
+.about__header .section-subtitle {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.about__grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 48px;
+  margin-bottom: 64px;
+}
+
+.about__vision-box,
+.about__mission-box {
+  padding: 28px;
+  border-radius: var(--radius-md);
+  margin-bottom: 24px;
+}
+
+.about__vision-box {
+  background: linear-gradient(135deg, var(--color-primary), var(--color-primary-light));
+  color: var(--color-white);
+}
+
+.about__vision-box h3,
+.about__mission-box h3 {
+  font-size: 1.1rem;
+  margin-bottom: 8px;
+}
+
+.about__vision-box h3 {
+  color: var(--color-white);
+}
+
+.about__vision-box p {
+  font-size: 1.05rem;
+  line-height: 1.7;
+  opacity: 0.95;
+}
+
+.about__mission-box {
+  background: var(--color-bg);
+  border: 1px solid var(--color-bg-alt);
+}
+
+.about__mission-box h3 {
+  color: var(--color-primary);
+}
+
+.about__mission-box p {
+  color: var(--color-text-light);
+  line-height: 1.7;
+}
+
+.about__quote {
+  padding: 24px 28px;
+  background: var(--color-bg);
+  border-left: 4px solid var(--color-secondary);
+  border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+}
+
+.about__quote-icon {
+  color: var(--color-secondary);
+  font-size: 1.2rem;
+  margin-bottom: 8px;
+}
+
+.about__quote blockquote {
+  font-family: var(--font-heading);
+  font-size: 1.15rem;
+  font-style: italic;
+  color: var(--color-text);
+  margin-bottom: 8px;
+}
+
+.about__quote cite {
+  font-size: 0.85rem;
+  color: var(--color-text-light);
+  font-style: normal;
+}
+
+.about__values {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.about__value-card {
+  display: flex;
+  gap: 20px;
+  padding: 24px;
+  background: var(--color-bg);
+  border-radius: var(--radius-md);
+  transition: all var(--transition);
+  border: 1px solid transparent;
+}
+
+.about__value-card:hover {
+  border-color: var(--color-accent-light);
+  box-shadow: var(--shadow-sm);
+  transform: translateY(-2px);
+}
+
+.about__value-icon {
+  flex-shrink: 0;
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--color-accent);
+  color: var(--color-white);
+  border-radius: var(--radius-sm);
+  font-size: 1.2rem;
+}
+
+.about__value-card h4 {
+  font-family: var(--font-body);
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 6px;
+  color: var(--color-text);
+}
+
+.about__value-card p {
+  font-size: 0.9rem;
+  color: var(--color-text-light);
+  line-height: 1.6;
+}
+
+/* SDGs */
+.about__sdgs {
+  text-align: center;
+  padding-top: 40px;
+  border-top: 1px solid var(--color-bg-alt);
+}
+
+.about__sdgs-title {
+  font-size: 1rem;
+  font-family: var(--font-body);
+  font-weight: 600;
+  color: var(--color-text-light);
+  margin-bottom: 20px;
+}
+
+.about__sdg-tags {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+}
+
+.about__sdg-tag {
+  padding: 8px 20px;
+  border-radius: 50px;
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--color-white);
+}
+
+.about__sdg-tag--4 { background: #c5192d; }
+.about__sdg-tag--5 { background: #ff3a21; }
+.about__sdg-tag--1 { background: #e5243b; }
+.about__sdg-tag--8 { background: #a21942; }
+
+@media (max-width: 768px) {
+  .about__grid {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+}

@@ -1,4 +1,4 @@
-import { FaInstagram, FaFacebookF, FaTiktok, FaHeart } from 'react-icons/fa'
+import { FaInstagram, FaFacebookF, FaTiktok, FaLinkedinIn, FaHeart } from 'react-icons/fa'
 import logo from '../assets/images/abf-icon.png'
 import './Footer.css'
 
@@ -17,6 +17,11 @@ const socials = [
     icon: <FaTiktok />,
     label: 'TikTok',
     href: null, // placeholder -link when account is created
+  },
+  {
+    icon: <FaLinkedinIn />,
+    label: 'LinkedIn',
+    href: 'https://www.linkedin.com/in/joyce-selby/',
   },
 ]
 

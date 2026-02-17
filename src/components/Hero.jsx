@@ -13,15 +13,15 @@ export default function Hero() {
 
       <div className="hero__inner container">
         <div className="hero__content">
-          <p className="hero__tagline">Helper of the Lady</p>
+          <p className="hero__tagline">Aketesia Boafo Foundation</p>
           <h1 className="hero__title">
             Empowering Girls to<br />
             <span className="hero__title-accent">Realize Their Full Potential</span>
           </h1>
           <p className="hero__description">
-            Aketesia Boafo Foundation is dedicated to empowering young girls in
-            Winneba, Ghana through mentorship, skill-training, and holistic
-            educational sessions. Together, we build a future where every girl thrives.
+            Dedicated to empowering young girls in Ghana through mentorship,
+            skill-training, and holistic educational sessions. Together, we build
+            a future where every girl thrives.
           </p>
           <div className="hero__actions">
             <a href="#get-involved" className="btn btn-accent">

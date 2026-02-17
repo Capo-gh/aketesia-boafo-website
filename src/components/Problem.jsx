@@ -5,7 +5,7 @@ const stats = [
   {
     icon: <FaChild />,
     number: '1 in 5',
-    label: 'girls aged 15-19 in the Central Region have begun childbearing',
+    label: 'girls aged 15-19 in Ghana have begun childbearing',
   },
   {
     icon: <FaSchool />,
@@ -32,9 +32,8 @@ export default function Problem() {
           <span className="section-label">The Challenge</span>
           <h2 className="section-title">Why This Work Matters</h2>
           <p className="section-subtitle">
-            Adolescent pregnancy has consistently proven to be a deep-rooted challenge
-            in Ghana's Central Region, trapping girls in cycles of poverty and limiting
-            their potential.
+            Adolescent pregnancy remains a deep-rooted challenge across Ghana,
+            trapping girls in cycles of poverty and limiting their potential.
           </p>
         </div>
 

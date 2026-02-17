@@ -17,7 +17,7 @@ const contactInfo = [
   {
     icon: <FaMapMarkerAlt />,
     label: 'Location',
-    value: 'Winneba, Ghana',
+    value: 'Ghana',
     href: null,
   },
   {

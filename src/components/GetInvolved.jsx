@@ -29,7 +29,7 @@ export default function GetInvolved() {
           <h2 className="section-title">Join Our Mission</h2>
           <p className="section-subtitle">
             Whether you volunteer, donate, or spread the word, every action
-            helps a girl in Winneba build a brighter future.
+            helps a girl in Ghana build a brighter future.
           </p>
         </div>
 

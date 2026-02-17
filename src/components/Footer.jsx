@@ -43,7 +43,7 @@ export default function Footer() {
               <span>Aketesia Boafo Foundation</span>
             </div>
             <p className="footer__tagline">
-              Helper of the Lady. Empowering young girls in Winneba, Ghana
+              Helper of the Lady. Empowering young girls across Ghana
               through mentorship, skill-training, and holistic education.
             </p>
           </div>
@@ -94,7 +94,7 @@ export default function Footer() {
             &copy; {new Date().getFullYear()} Aketesia Boafo Foundation. All rights reserved.
           </p>
           <p className="footer__made-with">
-            Made with <FaHeart className="footer__heart" /> for the girls of Winneba
+            Made with <FaHeart className="footer__heart" /> for the girls of Ghana
           </p>
         </div>
       </div>

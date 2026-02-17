@@ -14,8 +14,8 @@ const values = [
   },
   {
     icon: <FaGlobeAfrica />,
-    title: 'Rooted in Winneba',
-    desc: 'Founded by someone who grew up in Winneba, our programs are designed with deep understanding of local realities.',
+    title: 'Rooted in Ghana',
+    desc: 'Founded by someone who grew up in Winneba, our programs are designed with deep understanding of local realities across Ghana.',
   },
 ]
 
@@ -25,10 +25,11 @@ export default function About() {
       <div className="container">
         <div className="about__header">
           <span className="section-label">About Us</span>
-          <h2 className="section-title">Helper of the Lady</h2>
+          <h2 className="section-title">Aketesia Boafo: Helper of the Lady</h2>
           <p className="section-subtitle">
-            Aketesia Boafo, translated from Fante, is dedicated to building a town
-            of highly skilled, influential women of substance in every walk of life.
+            Translated from Fante, Aketesia Boafo is dedicated to building
+            communities of highly skilled, influential women of substance in
+            every walk of life across Ghana.
           </p>
         </div>
 
@@ -37,8 +38,8 @@ export default function About() {
             <div className="about__vision-box">
               <h3>Our Vision</h3>
               <p>
-                A town of highly skilled, influential women of substance in every
-                walk of life.
+                Communities of highly skilled, influential women of substance in
+                every walk of life across Ghana.
               </p>
             </div>
             <div className="about__mission-box">

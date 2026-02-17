@@ -1,15 +1,15 @@
 /* ===== CSS Variables / Design Tokens ===== */
 :root {
-  --color-primary: #4A708B;
-  --color-primary-dark: #3a5a70;
-  --color-primary-light: #5a8aab;
-  --color-text: #333333;
-  --color-text-light: #666666;
-  --color-secondary: #A48E9D;
-  --color-secondary-light: #c4b0bd;
-  --color-accent: #84A98C;
-  --color-accent-dark: #6b9173;
-  --color-accent-light: #a8c5ae;
+  --color-primary: #2E5A7B;
+  --color-primary-dark: #1E3F5A;
+  --color-primary-light: #3D6F94;
+  --color-text: #1A1A2E;
+  --color-text-light: #4A4A5A;
+  --color-secondary: #8B6E82;
+  --color-secondary-light: #b0949a;
+  --color-accent: #5B8C65;
+  --color-accent-dark: #3E6B47;
+  --color-accent-light: #7BA884;
   --color-bg: #F8F9FA;
   --color-white: #FFFFFF;
   --color-bg-alt: #EEF1F3;

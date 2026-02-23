@@ -7,6 +7,7 @@ const navLinks = [
   { label: 'About', href: '#about' },
   { label: 'The Problem', href: '#problem' },
   { label: 'Programs', href: '#programs' },
+  { label: 'Updates', href: '#news' },
   { label: 'Get Involved', href: '#get-involved' },
   { label: 'Contact', href: '#contact' },
 ]

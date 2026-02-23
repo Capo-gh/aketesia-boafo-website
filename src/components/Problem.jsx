@@ -51,6 +51,9 @@ export default function Problem() {
             </div>
           ))}
         </div>
+        <p className="problem__sources">
+          Sources: Ghana Statistical Service, Demographic and Health Survey (Central Region); Ghana Education Service (2020)
+        </p>
 
         <div className="problem__detail">
           <div className="problem__detail-content">

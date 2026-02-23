@@ -102,6 +102,16 @@
   line-height: 1.5;
 }
 
+/* Sources footnote */
+.problem__sources {
+  font-size: 0.72rem;
+  color: var(--color-text-light);
+  opacity: 0.65;
+  text-align: right;
+  margin-top: -48px;
+  margin-bottom: 64px;
+}
+
 /* Detail section */
 .problem__detail {
   display: grid;

@@ -23,6 +23,11 @@ export default function GetInvolved() {
 
   return (
     <section id="get-involved" className="section get-involved">
+      <div className="get-involved__bg-shapes">
+        <div className="get-involved__shape get-involved__shape--1" />
+        <div className="get-involved__shape get-involved__shape--2" />
+        <div className="get-involved__shape get-involved__shape--3" />
+      </div>
       <div className="container">
         <div className="get-involved__header">
           <span className="section-label">Get Involved</span>

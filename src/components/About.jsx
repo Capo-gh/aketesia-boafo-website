@@ -22,6 +22,10 @@ const values = [
 export default function About() {
   return (
     <section id="about" className="section about">
+      <div className="about__bg-shapes">
+        <div className="about__shape about__shape--1" />
+        <div className="about__shape about__shape--2" />
+      </div>
       <div className="container">
         <div className="about__header">
           <span className="section-label">About Us</span>

@@ -32,6 +32,10 @@ const calendar = [
 export default function Programs() {
   return (
     <section id="programs" className="section programs">
+      <div className="programs__bg-shapes">
+        <div className="programs__shape programs__shape--1" />
+        <div className="programs__shape programs__shape--2" />
+      </div>
       <div className="container">
         <div className="programs__header">
           <span className="section-label">Our Programs</span>

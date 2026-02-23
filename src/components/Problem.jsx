@@ -27,6 +27,11 @@ const stats = [
 export default function Problem() {
   return (
     <section id="problem" className="section problem">
+      <div className="problem__bg-shapes">
+        <div className="problem__shape problem__shape--1" />
+        <div className="problem__shape problem__shape--2" />
+        <div className="problem__shape problem__shape--3" />
+      </div>
       <div className="container">
         <div className="problem__header">
           <span className="section-label">The Challenge</span>
